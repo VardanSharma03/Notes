@@ -1,0 +1,51 @@
+.container{
+  width: 40svb;
+  min-height: 70vh;
+  background-color: rgb(188, 245, 226);
+  margin: auto;
+}
+.addTodo input{
+  width: 50%;
+  margin: 10px;
+  margin-left: 20px;
+}
+#title{
+  width: 20%;
+}
+.btn{
+  display: flex;
+  border: 2px solid black;
+  background-color: rgb(16, 159, 106);
+  color: aliceblue;
+  width: 60px;
+  border-radius:8px;
+  transition:all;
+  transition-duration: 0.8s;
+  justify-content: center;
+  align-items: center;
+  margin: 8px;
+  max-height: 28px;
+
+}
+.btn:hover{
+  background-color: rgb(4, 65, 45);
+  scale: 1.1;
+}
+.todos{
+  margin: 10px;
+}
+.todo{
+  margin: 10px;
+  width: 80%;
+  justify-content: space-between;
+  align-items: center;
+}
+.h{
+  font-size: 24px;
+
+  margin-left: 10px;
+}
+.h1{
+  font-size: 28px;
+  margin: 20px; 
+}
